@@ -15,6 +15,7 @@
 		F34494F315DDD0D500E6676E /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F34494F215DDD0D500E6676E /* CalculatorAppDelegate.m */; };
 		F34494F615DDD0D500E6676E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F34494F415DDD0D500E6676E /* MainStoryboard.storyboard */; };
 		F34494F915DDD0D500E6676E /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F34494F815DDD0D500E6676E /* CalculatorViewController.m */; };
+		F36E17CA15E85A0100AD7277 /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = F36E17C915E85A0100AD7277 /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		F34494F515DDD0D500E6676E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		F34494F715DDD0D500E6676E /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		F34494F815DDD0D500E6676E /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		F36E17C815E85A0100AD7277 /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		F36E17C915E85A0100AD7277 /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				F34494F115DDD0D500E6676E /* CalculatorAppDelegate.h */,
 				F34494F215DDD0D500E6676E /* CalculatorAppDelegate.m */,
 				F34494F415DDD0D500E6676E /* MainStoryboard.storyboard */,
+				F36E17C815E85A0100AD7277 /* CalculatorBrain.h */,
+				F36E17C915E85A0100AD7277 /* CalculatorBrain.m */,
 				F34494F715DDD0D500E6676E /* CalculatorViewController.h */,
 				F34494F815DDD0D500E6676E /* CalculatorViewController.m */,
 				F34494E915DDD0D500E6676E /* Supporting Files */,
@@ -165,6 +170,7 @@
 				F34494EF15DDD0D500E6676E /* main.m in Sources */,
 				F34494F315DDD0D500E6676E /* CalculatorAppDelegate.m in Sources */,
 				F34494F915DDD0D500E6676E /* CalculatorViewController.m in Sources */,
+				F36E17CA15E85A0100AD7277 /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +286,7 @@
 				F34494FE15DDD0D500E6676E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
